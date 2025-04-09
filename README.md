@@ -37,6 +37,20 @@ python organize_download.py --delay 10
    - Creates a folder with today's date (if it doesn't exist)
    - Moves the file into that folder
 
+## Ready-to-Use Executable
+
+For Windows users who don't want to install Python or any dependencies, a ready-to-use executable is provided:
+
+1. Go to the [Releases](https://github.com/Mj-Njuguna/download_organizer/releases) section of this repository
+2. Download the latest `organize_download.exe` file
+3. Run the executable on your Windows computer
+4. The program will start organizing your Downloads folder immediately
+5. To keep it running in the background, you may want to:
+   - Create a shortcut in your Startup folder
+   - Run it as a scheduled task at login
+
+No installation or Python knowledge required!
+
 ## Building an Executable (Optional)
 
 The `.spec` file included suggests you can build this into a standalone executable using PyInstaller:
